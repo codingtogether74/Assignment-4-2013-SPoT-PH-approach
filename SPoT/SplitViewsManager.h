@@ -1,6 +1,6 @@
 //
-//  RotatableViewController.h
-//  Psychologist
+//  SplitViewsManager.h
+//  SPoT_PH
 //
 //  Created by CS193p Instructor.
 //  Copyright (c) 2011 Stanford University. All rights reserved.
@@ -12,7 +12,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RotatableViewController :  UITableViewController <UISplitViewControllerDelegate>
+@interface SplitViewsManager : UITableViewController <UISplitViewControllerDelegate>
 - (void)transferSplitViewBarButtonItemToViewController:(id)destinationViewController;
 
 @end

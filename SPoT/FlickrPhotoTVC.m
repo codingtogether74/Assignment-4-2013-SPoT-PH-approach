@@ -95,7 +95,7 @@
     }
 }
  */
-
+/*
 // Copy/pasted from RotatableViewController since we want the same thing
 
 - (id <SplitViewBarButtonItemPresenter>)splitViewBarButtonItemPresenter
@@ -107,6 +107,7 @@
     return detailVC;
 }
 
+
 // Does the bar button item transfer from existing detail view controller to destination
 
 - (void)transferSplitViewBarButtonItemToViewController:(id)destinationViewController
@@ -117,5 +118,5 @@
         [destinationViewController setSplitViewBarButtonItem:splitViewBarButtonItem];
     }
 }
-
+*/
 @end

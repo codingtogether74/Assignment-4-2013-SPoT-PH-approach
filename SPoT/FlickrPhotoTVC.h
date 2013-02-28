@@ -7,10 +7,10 @@
 //  Will call setImageURL as part of any "Show image" segue
 
 #import <UIKit/UIKit.h>
+#import "SplitViewsManager.h"
 #import "ImageViewController.h"
-#import "RotatableViewController.h"
 
-@interface FlickrPhotoTVC : RotatableViewController
+@interface FlickrPhotoTVC : SplitViewsManager
 @property (nonatomic,strong) NSArray *photos; // of NSDictionary
 
 @end

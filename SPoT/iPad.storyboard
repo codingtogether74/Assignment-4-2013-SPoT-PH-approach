@@ -259,7 +259,7 @@
             </objects>
             <point key="canvasLocation" x="-797" y="-330"/>
         </scene>
-        <!--ResentsTVC - Resent Photos-->
+        <!--ResentsTVC - Photos-->
         <scene sceneID="Wlq-WK-dFj">
             <objects>
                 <tableViewController id="NsV-jH-7cO" customClass="ResentsTVC" sceneMemberID="viewController">
@@ -300,7 +300,7 @@
                             <outlet property="delegate" destination="NsV-jH-7cO" id="kJw-H0-4ct"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Resent Photos" id="55c-ZN-oQP"/>
+                    <navigationItem key="navigationItem" title="Photos" id="55c-ZN-oQP"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmf-DA-5e8" userLabel="First Responder" sceneMemberID="firstResponder"/>

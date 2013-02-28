@@ -1,15 +1,15 @@
 //
-//  RotatableViewController.m
-//  Psychologist
+//  SplitViewsManager.m
+//  SPoT_PH
 //
 //  Created by CS193p Instructor.
 //  Copyright (c) 2011 Stanford University. All rights reserved.
 //
 
-#import "RotatableViewController.h"
+#import "SplitViewsManager.h"
 #import "SplitViewBarButtonItemPresenter.h"
 
-@implementation RotatableViewController
+@implementation SplitViewsManager
 
 - (void)awakeFromNib  // always try to be the split view's delegate
 {
@@ -60,10 +60,4 @@
     }
 }
 
-/*------------- for iOS 5.1 -----------
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return YES;
-}
-*/
 @end
