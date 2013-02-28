@@ -315,7 +315,7 @@
                 <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
             </relationships>
         </class>
-        <class className="FlickrPhotoTVC" superclassName="RotatableViewController">
+        <class className="FlickrPhotoTVC" superclassName="SplitViewsManager">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FlickrPhotoTVC.h"/>
         </class>
         <class className="ImageViewController" superclassName="UIViewController">
@@ -332,8 +332,8 @@
         <class className="ResentsTVC" superclassName="FlickrPhotoTVC">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ResentsTVC.h"/>
         </class>
-        <class className="RotatableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RotatableViewController.h"/>
+        <class className="SplitViewsManager" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SplitViewsManager.h"/>
         </class>
         <class className="StanfordTagsTVC" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/StanfordTagsTVC.h"/>
@@ -345,6 +345,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="x1D-o6-3e5"/>
+        <segue reference="Acv-dV-g1p"/>
     </inferredMetricsTieBreakers>
 </document>
