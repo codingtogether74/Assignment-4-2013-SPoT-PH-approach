@@ -133,7 +133,7 @@
     [self handleSplitViewBarButtonItem:self.splitViewBarButtonItem];
 }
 
-#pragma mark - Split View Controller
+#pragma mark - SplitViewBarButtonItemPresenter protocol
 
 // Puts the splitViewBarButton in our toolbar (and/or removes the old one).
 // Must be called when our splitViewBarButtonItem property changes
